@@ -1,9 +1,12 @@
 import React from 'react';
 import './RelatedProduct.scss';
+import Product from '../../Products/Product/Product';
 
 const RelatedProduct = () => {
   return (
-    <div>RelatedProduct</div>
+    <div className='related-products'>
+        <Product headingText="Related Products" />
+    </div>
   )
 }
 
