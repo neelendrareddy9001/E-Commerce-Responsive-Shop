@@ -17,4 +17,10 @@
         @include md {
         }
     }
+    .products-container {
+        margin: 20px 0;
+        @include md {
+            margin: 50px 0;
+        }
+    }
 }
