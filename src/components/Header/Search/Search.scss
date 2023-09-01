@@ -1,0 +1,51 @@
+@import "../../../css-config/mixins.scss";
+.search-model {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background-color: white;
+  //transfom: translateY(100%);
+
+  .form-field {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+    @include md {
+      padding: 20px 0;
+    }
+    input {
+      width: 100%;
+      max-width: 1200px;
+      height: 50px;
+      font-size: 20px;
+      text-align: center;
+      font-weight: 600;
+      color: #212121;
+      border: none;
+      outline: none;
+      text-transform: uppercase;
+      @include md {
+        font-size: 48px;
+        height: 80px;
+      }
+    }
+    svg {
+      position: absolute;
+      font-size: 25px;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      @include md {
+        right: 40px;
+        font-size: 50px;
+      }
+    }
+  }
+}
