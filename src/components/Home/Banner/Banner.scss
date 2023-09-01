@@ -10,8 +10,9 @@
     height: 100%;
     display: flex;
     justify-content: flex-end;
-    flex-direction: column;
-    max-width: calc(100% - 80px);
+    align-items: center;
+    flex-direction: column-reverse;
+    max-width: calc(100% - 20px);
     margin: 0 auto;
     position: relative;
     @include md {
@@ -22,9 +23,9 @@
       position: relative;
       z-index: 9;
       width: 200px;
-      margin-bottom: 20px;
+      margin-bottom: 80px;
       @include md {
-        width: 600px;
+        width: 500px;
         margin-right: 60px;
         margin-top: 50px;
         margin-bottom: 0;
