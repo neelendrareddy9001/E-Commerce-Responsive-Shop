@@ -23,7 +23,7 @@ const Header = () => {
   };
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-  }, []);
+  }, [scrolled, showCart, showSearch]);
   return (
     <>
       <header className={`main-header ${scrolled ? "sticky-header" : ""}`}>
