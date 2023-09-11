@@ -6,7 +6,7 @@ import SingleProduct from "./components/SingleProduct/SingleProduct";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Newsletter from "./components/Footer/Newsletter/Newsletter";
-import AppContext from "./utils/content";
+import AppContext from "./utils/context";
 
 function App() {
   return (

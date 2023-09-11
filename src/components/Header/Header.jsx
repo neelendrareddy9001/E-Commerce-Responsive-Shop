@@ -35,7 +35,7 @@ const Header = () => {
           </ul>
           <div className="center">JSDEVSTORE.</div>
           <div className="right">
-            <TbSearch onClick={setShowSearch(true)} />
+            <TbSearch onClick={() => setShowSearch(true)} />
             <AiOutlineHeart />
             <span className="cart-icon" onClick={() => setShowCart(true)}>
               <CgShoppingCart />
