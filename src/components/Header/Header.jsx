@@ -39,12 +39,12 @@ const Header = () => {
             <AiOutlineHeart />
             <span className="cart-icon" onClick={() => setShowCart(true)}>
               <CgShoppingCart />
-              <span>5</span>
+              <span>6</span>
             </span>
           </div>
         </div>
       </header>
-      {showCart && <Cart setShowCart={() => {}} />}
+      {showCart && <Cart setShowCart={setShowCart} />}
       {showSearch && <Search setShowSearch={setShowSearch} />}
     </>
   );
